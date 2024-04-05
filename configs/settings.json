@@ -1,0 +1,283 @@
+{
+  //-------------------------------------------------------------------------------------------------------
+  // General settings
+  //-------------------------------------------------------------------------------------------------------
+  "window.zoomLevel": 1,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "redhat.telemetry.enabled": false,
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.guides.bracketPairs": "active",
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "scm.diffDecorations": "none",
+  "files.insertFinalNewline": false,
+
+  //-------------------------------------------------------------------------------------------------------
+  // Workbench appearance
+  //-------------------------------------------------------------------------------------------------------
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.editor.showTabs": "single",
+  "editor.codeLensFontSize": 13,
+  "explorer.compactFolders": false,
+  "workbench.statusBar.visible": false,
+  "window.customTitleBarVisibility": "never",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.lightbulb.enabled": "off",
+
+  //-------------------------------------------------------------------------------------------------------
+  // Editor settings
+  //-------------------------------------------------------------------------------------------------------
+  "editor.lineNumbers": "relative",
+  "editor.stickyScroll.enabled": false,
+  "editor.wordWrapColumn": 350,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "editor.glyphMargin": false,
+  "indenticator.width": 0.1,
+  "indenticator.color.dark": "rgba(255,255,255,0.1)",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "workbench.activityBar.location": "hidden",
+
+  //-------------------------------------------------------------------------------------------------------
+  // Font settings
+  //-------------------------------------------------------------------------------------------------------
+  "editor.fontSize": 16,
+  "editor.fontFamily": "JetBrains mono",
+  "editor.fontWeight": "600",
+
+  //-------------------------------------------------------------------------------------------------------
+  // Terminal settings
+  //-------------------------------------------------------------------------------------------------------
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.windowsExec": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.fontSize": 18,
+
+  //-------------------------------------------------------------------------------------------------------
+  // Code formatting
+  //-------------------------------------------------------------------------------------------------------
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "cSpell.fixSpellingWithRenameProvider": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsx]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[tsx]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "[go]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  // "[csharp]": {
+  //   "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  // },
+
+  //-------------------------------------------------------------------------------------------------------
+  // Neo-vim settings
+  //-------------------------------------------------------------------------------------------------------
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.neovimInitVimPaths.darwin": "~/.config/nvim/init.lua",
+
+  //-------------------------------------------------------------------------------------------------------
+  // Code spell dictionary
+  //-------------------------------------------------------------------------------------------------------
+  "cSpell.userWords": [
+    "aeiou",
+    "aprendiendo",
+    "Ardalis",
+    "ASPNETCORE",
+    "asvetliakov",
+    "blazingtrails",
+    "blazor",
+    "Catppuccin",
+    "commandlineinprogress",
+    "dotnettools",
+    "Durbach",
+    "easymotion",
+    "esbenp",
+    "estudiantes",
+    "fullpath",
+    "highlightedyank",
+    "Hsts",
+    "ignorecase",
+    "indenticator",
+    "informáticas",
+    "Macchiato",
+    "Mediat",
+    "muchos",
+    "neovim",
+    "nerdtree",
+    "nvim",
+    "readwrite",
+    "rgba",
+    "smartcase",
+    "Universidad",
+    "visualblock",
+    "visualline",
+    "xvalue"
+  ],
+
+  //-------------------------------------------------------------------------------------------------------
+  // Disable theme italics
+  //-------------------------------------------------------------------------------------------------------
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "constant",
+          "constant.character",
+          "constant.character.escape",
+          "constant.numeric",
+          "constant.numeric.integer",
+          "constant.numeric.float",
+          "constant.numeric.hex",
+          "constant.numeric.octal",
+          "constant.other",
+          "constant.regexp",
+          "constant.rgb-value",
+          "emphasis",
+          "entity",
+          "entity.name",
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.method",
+          "entity.name.section",
+          "entity.name.selector",
+          "entity.name.tag",
+          "entity.name.type",
+          "entity.other",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "invalid",
+          "invalid.deprecated",
+          "invalid.illegal",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.other",
+          "markup",
+          "markup.bold",
+          "markup.changed",
+          "markup.deleted",
+          "markup.heading",
+          "markup.inline.raw",
+          "markup.inserted",
+          "markup.italic",
+          "markup.list",
+          "markup.list.numbered",
+          "markup.list.unnumbered",
+          "markup.other",
+          "markup.quote",
+          "markup.raw",
+          "markup.underline",
+          "markup.underline.link",
+          "meta",
+          "meta.block",
+          "meta.cast",
+          "meta.class",
+          "meta.function",
+          "meta.function-call",
+          "meta.preprocessor",
+          "meta.return-type",
+          "meta.selector",
+          "meta.tag",
+          "meta.type.annotation",
+          "meta.type",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator",
+          "punctuation.separator.continuation",
+          "punctuation.terminator",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "string",
+          "string.interpolated",
+          "string.other",
+          "string.quoted",
+          "string.quoted.double",
+          "string.quoted.other",
+          "string.quoted.single",
+          "string.quoted.triple",
+          "string.regexp",
+          "string.unquoted",
+          "strong",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
+}
