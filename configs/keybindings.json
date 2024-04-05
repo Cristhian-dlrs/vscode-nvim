@@ -19,5 +19,7 @@
     "key": "ctrl+shift+h",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-  }
+  },
+  { "key": "ctrl+s", "command": "workbench.action.files.save" },
+  { "key": "alt+ctrl+s", "command": "saveAll" }
 ]
