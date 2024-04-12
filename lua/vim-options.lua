@@ -25,8 +25,8 @@ vim.keymap.set("n", "Q", "@qj")
 vim.keymap.set("x", "Q", ":norm @q<CR>")
 
 -- code actions
-vim.keymap.set("n", "<leader>gd", "gd")
-vim.keymap.set("n", "<leader>gr", "gH")
+vim.api.nvim_set_keymap("n", "<leader>gd", "gd", { silent = true })
+vim.api.nvim_set_keymap("n", "<leader>gr", "gH", { silent = true })
 vim.api.nvim_set_keymap('n', '<leader>ca', ":call VSCodeNotify('editor.action.quickFix')<CR>", { silent = true })
 vim.api.nvim_set_keymap('n', '<leader>rn', ":call VSCodeNotify('editor.action.rename')<CR>", { silent = true })
 vim.api.nvim_set_keymap('n', '<leader>gi', ":call VSCodeNotify('editor.action.goToImplementation')<CR>",
