@@ -10,36 +10,12 @@ vim.keymap.set("v", "p", "P")
 -- advanced copy and paste
 vim.keymap.set("n", "Y", "viwy")
 vim.keymap.set("n", "P", "viwpviwy")
+
+-- action to the end of line
 vim.keymap.set("n", "<leader>ye", "v$y")
-vim.keymap.set("n", "<leader>yp", "yi(")
-vim.keymap.set("n", "<leader>yb", "yi{")
-vim.keymap.set("n", "<leader>yc", "yi[")
-vim.keymap.set("n", "<leader>yl", "yi<")
-vim.keymap.set("n", "<leader>yg", "yi>")
-
--- advanced substitution
 vim.keymap.set("n", "<leader>ce", "c$")
-vim.keymap.set("n", "<leader>cp", "ci(")
-vim.keymap.set("n", "<leader>cb", "ci{")
-vim.keymap.set("n", "<leader>cc", "ci[")
-vim.keymap.set("n", "<leader>cl", "ci<")
-vim.keymap.set("n", "<leader>cg", "ci>")
-
--- advanced deletion
 vim.keymap.set("n", "<leader>de", "d$")
-vim.keymap.set("n", "<leader>dp", "di(")
-vim.keymap.set("n", "<leader>db", "di{")
-vim.keymap.set("n", "<leader>dc", "di[")
-vim.keymap.set("n", "<leader>dl", "di<")
-vim.keymap.set("n", "<leader>dg", "di>")
-
--- advanced selection
 vim.keymap.set("n", "<leader>ve", "v$")
-vim.keymap.set("n", "<leader>vp", "vi(")
-vim.keymap.set("n", "<leader>vb", "vi{")
-vim.keymap.set("n", "<leader>vc", "vi[")
-vim.keymap.set("n", "<leader>vl", "vi<")
-vim.keymap.set("n", "<leader>vg", "vi>")
 
 -- search ignorecase
 vim.opt.ignorecase = true
