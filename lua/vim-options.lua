@@ -30,6 +30,13 @@ vim.keymap.set("n", "<leader>db", "di{")
 vim.keymap.set("n", "<leader>dc", "di[")
 vim.keymap.set("n", "<leader>dab", "di<")
 
+-- advanced selection
+vim.keymap.set("n", "<leader>ve", "v$")
+vim.keymap.set("n", "<leader>vp", "vi(")
+vim.keymap.set("n", "<leader>vb", "vi{")
+vim.keymap.set("n", "<leader>vc", "vi[")
+vim.keymap.set("n", "<leader>vab", "vi<")
+
 -- search ignorecase
 vim.opt.ignorecase = true
 
