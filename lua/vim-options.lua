@@ -15,27 +15,31 @@ vim.keymap.set("n", "<leader>yp", "yi(")
 vim.keymap.set("n", "<leader>yb", "yi{")
 vim.keymap.set("n", "<leader>yc", "yi[")
 vim.keymap.set("n", "<leader>yab", "yi<")
+vim.keymap.set("n", "<leader>yabb", "yi>")
 
 -- advanced substitution
 vim.keymap.set("n", "<leader>ce", "c$")
 vim.keymap.set("n", "<leader>cp", "ci(")
 vim.keymap.set("n", "<leader>cb", "ci{")
 vim.keymap.set("n", "<leader>cc", "ci[")
-vim.keymap.set("n", "<leader>cab", "ci<")
+vim.keymap.set("n", "<leader>ct", "ci<")
+vim.keymap.set("n", "<leader>cti", "ci>")
 
 -- advanced deletion
 vim.keymap.set("n", "<leader>de", "d$")
 vim.keymap.set("n", "<leader>dp", "di(")
 vim.keymap.set("n", "<leader>db", "di{")
 vim.keymap.set("n", "<leader>dc", "di[")
-vim.keymap.set("n", "<leader>dab", "di<")
+vim.keymap.set("n", "<leader>dt", "di<")
+vim.keymap.set("n", "<leader>dti", "di>")
 
 -- advanced selection
 vim.keymap.set("n", "<leader>ve", "v$")
 vim.keymap.set("n", "<leader>vp", "vi(")
 vim.keymap.set("n", "<leader>vb", "vi{")
 vim.keymap.set("n", "<leader>vc", "vi[")
-vim.keymap.set("n", "<leader>vab", "vi<")
+vim.keymap.set("n", "<leader>vt", "vi<")
+vim.keymap.set("n", "<leader>vti", "vi>")
 
 -- search ignorecase
 vim.opt.ignorecase = true
