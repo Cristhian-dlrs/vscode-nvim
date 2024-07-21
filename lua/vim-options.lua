@@ -7,6 +7,22 @@ vim.api.nvim_set_keymap("n", "U", ":redo<cr>", { noremap = true, silent = true }
 -- pasting without overwritting
 vim.keymap.set("v", "p", "P")
 
+-- advanced copy and paste
+vim.keymap.set("n", "Y", "viwy")
+vim.keymap.set("n", "P", "viwpviwy")
+vim.keymap.set("n", "<leader>ye", "v$y")
+vim.keymap.set("n", "<leader>yp", "yi(")
+vim.keymap.set("n", "<leader>yb", "yi{")
+vim.keymap.set("n", "<leader>yc", "yi[")
+vim.keymap.set("n", "<leader>ya", "yi<")
+
+-- advanced deletion
+vim.keymap.set("n", "<leader>de", "d$")
+vim.keymap.set("n", "<leader>dp", "di(")
+vim.keymap.set("n", "<leader>db", "di{")
+vim.keymap.set("n", "<leader>dc", "di[")
+vim.keymap.set("n", "<leader>da", "di<")
+
 -- search ignorecase
 vim.opt.ignorecase = true
 
