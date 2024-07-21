@@ -14,14 +14,21 @@ vim.keymap.set("n", "<leader>ye", "v$y")
 vim.keymap.set("n", "<leader>yp", "yi(")
 vim.keymap.set("n", "<leader>yb", "yi{")
 vim.keymap.set("n", "<leader>yc", "yi[")
-vim.keymap.set("n", "<leader>ya", "yi<")
+vim.keymap.set("n", "<leader>yab", "yi<")
+
+-- advanced substitution
+vim.keymap.set("n", "<leader>ce", "c$")
+vim.keymap.set("n", "<leader>cp", "ci(")
+vim.keymap.set("n", "<leader>cb", "ci{")
+vim.keymap.set("n", "<leader>cc", "ci[")
+vim.keymap.set("n", "<leader>cab", "ci<")
 
 -- advanced deletion
 vim.keymap.set("n", "<leader>de", "d$")
 vim.keymap.set("n", "<leader>dp", "di(")
 vim.keymap.set("n", "<leader>db", "di{")
 vim.keymap.set("n", "<leader>dc", "di[")
-vim.keymap.set("n", "<leader>da", "di<")
+vim.keymap.set("n", "<leader>dab", "di<")
 
 -- search ignorecase
 vim.opt.ignorecase = true
